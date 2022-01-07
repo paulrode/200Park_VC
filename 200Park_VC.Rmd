@@ -1,4 +1,9 @@
 ---
+title: "R Notebook"
+output: html_notebook
+---
+
+---
 title: "VC_Trends"
 author: "Paul Rode"
 date: "1/6/2022"
@@ -20,8 +25,8 @@ place <- "Home"
 
 
 #Set proper working Dir 
-if (place == "Home"){setwd("C:/Users/paulr/Documents/R/cbwg")} else
-{setwd("C:/Users/prode/Documents/R/cbwg")}
+if (place == "Home"){setwd("C:/Users/paulr/Documents/R/200Park_VC")} else
+{setwd("C:/Users/prode/Documents/R/200Park_VC")}
 
 # Check for data directory and if one is not present then make it
 if (!file.exists("data")) {
